@@ -1,0 +1,100 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+env/
+ENV/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Docker
+.docker/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+pgdata/
+redis-data/
+
+# Uploads
+uploads/
+temp/
+documents/
+
+# Vector DB
+vector_db/
+faiss_index/
+chroma_db/
+
+# Cache
+.cache/
+*.pyc
+.pytest_cache/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Build artifacts
+backend/dist/
+frontend/build/
+frontend/dist/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Mac
+.DS_Store
+
+# Backup
+*.backup
+*.bak
+*.tar.gz
+*.zip
